@@ -1,0 +1,4 @@
+# Core requirements for using this application
+
+langchain       # Famework for developing applications powered by language models.
+langflow        # UI for LangChain to experiment and prototype flows.

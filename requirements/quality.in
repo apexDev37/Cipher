@@ -1,0 +1,9 @@
+# Requirements for code quality checks
+
+isort                     # to standardize order of imports
+black                     # PEP 8 compliant code formatter
+flake8                    # Style enforcement guide tool
+mypy                      # Static type checker for Python
+pre-commit                # Automatic hook checks on commits
+pycodestyle               # PEP 8 compliance validation
+pydocstyle                # PEP 257 compliance validation
