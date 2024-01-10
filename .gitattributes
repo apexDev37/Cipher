@@ -1,0 +1,2 @@
+* text=auto eol=lf  # Use LF for all text files
+*.doc diff=astextplain  # Convert binary docs to text
