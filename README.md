@@ -1,4 +1,4 @@
-# Cipher &middot; [![Inline docs](https://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](https://github.com/apexDev37/Cipher/blob/main/README.md) [![Python version](https://img.shields.io/badge/-v3.12+-grey?style=flat&logo=python&logoColor=yellow)](https://www.python.org/downloads/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](http://makeapullrequest.com) [![Activity](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/apexDev37/Cipher/commits/main)
+# Cipher &middot; [![Inline docs](https://inch-ci.org/github/dwyl/hapi-auth-jwt2.svg?branch=master)](https://github.com/apexDev37/Cipher/blob/main/README.md) [![Python version](https://img.shields.io/badge/-v3.10+-grey?style=flat&logo=python&logoColor=yellow)](https://www.python.org/downloads/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](http://makeapullrequest.com) [![Activity](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/apexDev37/Cipher/commits/main)
 
 > Attempt to pair with an LLM to supercharge user account recovery protocols.
 
@@ -47,10 +47,10 @@ Create a virtual environment with your preferred package manager to isolate Ciph
 - **Create virtual environment**
 
 ```bash
-    $ mkvirtualenv -p python3.12 cipher
+    $ mkvirtualenv -p python3.10 cipher
 ```
 
-> This will create and activate a managed virtual env called `cipher` using a Python `3.12.x` interpreter on your local machine. Note: If you are not using `virtualenvwrapper`, run the command to create your virtual environment from the project's root directory.
+> This will create and activate a managed virtual env called `cipher` using a Python `3.10.x` interpreter on your local machine. Note: If you are not using `virtualenvwrapper`, run the command to create your virtual environment from the project's root directory.
 
 - **Install required packages**
 
@@ -63,7 +63,7 @@ Create a virtual environment with your preferred package manager to isolate Ciph
 
 > First, install `pip` and `pip-tools` requirements to access additional package management utilities. Next, use `pip-sync` to install all project requirements and _synchronize_ our active virtual environment with pinned package versions.
 
-> ⚠ Note, if you face an issue while installing requirements, particularly with `langflow`, run the following setup commands and rerun `pip-sync ...`.
+⚠ Note, if you face an issue while installing requirements, particularly with `langflow`, run the following setup commands and rerun `pip-sync ...`.
 
 ```bash
     # Ensure you have Python dev headers
