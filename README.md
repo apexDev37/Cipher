@@ -57,10 +57,24 @@ Create a virtual environment with your preferred package manager to isolate Ciph
 ```bash
     # We need `pip-sync` for the next command
     $ pip install -r <(cat requirements/pip.txt requirements/pip-tools.txt)
+    # Install packages and sync your venv
     $ pip-sync requirements/*.txt
 ```
 
 > First, install `pip` and `pip-tools` requirements to access additional package management utilities. Next, use `pip-sync` to install all project requirements and _synchronize_ our active virtual environment with pinned package versions.
+
+> ⚠ Note, if you face an issue while installing requirements, particularly with `langflow`, run the following setup commands and rerun `pip-sync ...`.
+
+```bash
+    # Ensure you have Python dev headers
+    $ sudo apt install python3.x-dev    # Replace with your py version
+    # Install other required dependencies
+    $ sudo apt install build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev
+
+```
+
+> This first installs Python development headers on your local machine. Next, other dependencies essential for compiling and building Python packages, especially those with C extensions are installed.
+
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does
 its job. There is no need to format nicely because it shouldn't be seen.
